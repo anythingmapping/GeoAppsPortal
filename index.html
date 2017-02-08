@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GeoPortal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <!-- <link href="css/freelancer.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/carousel.css">
+    <link href="css/freelancer.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        #mainNav {
+            background-color: black;
+            border-bottom-width: 1px;
+            border-bottom-color: #231f20;
+            }
+
+        #mainNav .container {
+            background: transparent url(images/logo_oasis.png) no-repeat left 10px center;
+           }
+
+    </style>
+
+    <!-- Google Analytics Code -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-77391785-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!-- <img class="navbar-brand" href="#page-top" src="images/logo_oasis.png"> -->
+                <a class="navbar-brand" href="#page-top"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Main Event</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#geoapps">Geo Apps</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#empty">empty</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#map-downloads">Map Downloads</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>     
+
+
+    <!-- ########################### HEADER SECTION ##################### -->  
+    <header>
+        <div class="container portfolio-behaviour">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">GeoApps-Portal</span>
+                        
+                        <!-- ######### NEWS CAROUSEL ######## -->
+                        <div class="news-carousel">
+                          <div class="news-carousel-container">
+                            <ul>
+                              <li>
+                                <div class="item">
+                                  <div class="item-image">
+                                    <img src="img\carousel\Fitzherbert.png" alt="" />
+                                  </div>
+                                  <div class="item-info">
+                                    <h1>Fitzherbert Park Map Now Available on request</h1>
+                                                                      
+                                  </div>
+                                </div>
+                              </li><li>
+                                <div class="item">
+                                  <div class="item-image">
+                                    <img src="img/carousel/demoMap.png" alt="" />
+                                  </div>
+                                  <div class="item-info">
+                                    <h1>Geo Apps Portal Launched 03/02/2017</h1>
+                                    
+                                  </div>
+                                </div>
+                              </li><!-- <li>
+                                <div class="item">
+                                  <div class="item-image">
+                                    <img src="img/carousel/demoMap.png" alt="" />
+                                  </div>
+                                  <div class="item-info">
+                                    <h1>This weeks News</h1>
+                                    <span>
+                                      <a href="">Read more</a>
+                                    </span>
+                                  </div>
+                                </div>
+                              </li><li>
+                                <div class="item">
+                                  <div class="item-image">
+                                    <img src="img\carousel\park.png" alt="" />
+                                  </div>
+                                  <div class="item-info">
+                                    <h1>anymap blog launched</h1>
+                                    <span>
+                                      <a target="_blank" href="http://www.anymap.co.nz">Anymap Blog</a>
+                                    </span>                                   
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div> -->
+                        <!-- ######### NEWS CAROUSEL ######## -->           
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+
+
+
+    <!-- THE MAIN EVENT -->
+    <section id="portfolio" class="portfolio-behaviour">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Main Viewers</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <h4 align="center">Old Geo City</h4>
+                    <a target="_blank" href="http://agsserv101/flexviewer/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-database fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/viewers/geoCity.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <h4 align="center">Infrastructure</h4>
+                        
+                    <a target="_blank" href="https://agslive.pncc.govt.nz/WAB/CouncilServices/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-desktop fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/viewers/infrastructure.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <h4 align="center">Land Administration</h4>
+                    <a target="_blank" href="https://agslive.pncc.govt.nz/WAB/LandAdmin/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-desktop fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/landico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- GeoApps -->
+    <section id="geoapps" class="portfolio-behaviour success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Geo Apps</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+                <div class="col-sm-4 portfolio-item">
+                    <h4 align="center">Recycling Services</h4>
+                    <a target="_blank" href="#recyclingServices" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-television fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/recy.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <h4 align="center">Mountain Bike Trails</h4>
+                    <a target="_blank" href="http://pncc.maps.arcgis.com/apps/3DScene/index.html?appid=f340c5eb9501409d86dc1bf49077c452" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-desktop fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bikeico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 portfolio-item">
+                        <h4 align="center">Emergency Situation Apps</h4>
+                            <a target="_blank" href="https://agslive.pncc.govt.nz/WAB/EOC/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-desktop fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/geoapps/eoc.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Empty -->
+    <section id="empty" class="portfolio-behaviour"/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Coming Soon</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 1</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 2</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 3</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 4</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 5</h4>
+                    <a target="_blank" href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Railway Map</h4>
+                    <a target="_blank" href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                
+            </div>
+    </section>
+ 
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Geo Portal is our way of sharing council map resouces. We're bringing new apps online all the time and would like to share them with you in our GeoApps section</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>In the future we will have more pdf downloads, live statics and automated reports here too. If you would like anything added to this portal for easy access then please contact us</p>
+                </div>
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Grid Section -->
+    <section id="map-downloads" class="portfolio-behaviour"/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Map Downloads - coming soon</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 1</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 2</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 3</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 4</h4>
+                    <a target="_blank" href="" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Street Map 5</h4>
+                    <a target="_blank" href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i hello class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                    <h4 align="center">Railway Map</h4>
+                    <a target="_blank" href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-cloud-download fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pdfico.png" class="img-responsive" alt="" align="middle">
+                    </a>
+                </div>
+                
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Level 4, The Battleship
+                            <br>Palmerston North, 4410</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="www.google.com" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About GIS</h3>
+                        <p> The GIS team cover all aspects of spatial information for the council</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; New Zealand Creative Commons 4.0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="recyclingServices" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Recycling Services</h2>
+
+
+                            <hr class="star-primary">
+                            <a target="_blank" type="button" href="http://pncc.maps.arcgis.com/apps/MapSeries/index.html?appid=b43ce159b86a4ff7a79bb99c16370d38">
+                                <img src="img/portfolio/recy.png" class="img-responsive img-centered" alt="">
+                            </a>
+
+                        </div>
+
+                            <div>
+                            <p>Welcome to the Recycling Services page. We are trying to get all of the relevant information for the activity into one place. If you have resources you would like to be accessible from this page please email lucas.mostyn@pncc.govt.nz </p>
+                            <div>
+                                                     
+                             
+                            <h4>Collection Map PDF Downloads</h4>
+                              <a target="_blank" type="button" class="btn btn-warning" href="https://agslive.pncc.govt.nz/GeoAppsPortal/GeoPortal/pdfs/rubbishService.pdf"  download>Rubbish Service PDF <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                              
+                              <a target="_blank" type="button" class="btn btn-success" href="https://agslive.pncc.govt.nz/GeoAppsPortal/GeoPortal/pdfs/recyclingService.pdf"  download>Recycling Service PDF <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+                              
+                              <a target="_blank" type="button" class="btn btn-danger" href="https://agslive.pncc.govt.nz/GeoAppsPortal/GeoPortal/pdfs/serviceOverview.pdf"  download>Service Overview PDF <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+
+                            </div>
+                            
+
+
+                            <ul class="list-inline item-details">
+                                <li>WorkForce:
+                                    <strong><a href="http://workforce.arcgis.com/projects/a978f30a6658449fb942f1bdae4c29db/dispatch/assignments"> Flytipping App</a>
+                                    </strong>
+                                </li>
+                                <li>Survey123:
+                                    <strong><a href="https://survey123.arcgis.com/surveys/b626326d1a6a41059f445dfbab0b4a7d/data"> Flytipping Data</a>
+                                    </strong>
+                                </li>
+                                <li>Smartrak:
+                                    <strong><a href="https://www.smartrak.co.nz/">Smartrak</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <img src="images/staticFlytippingStats.png" class="img-responsive" alt="" align="middle">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="waterServices" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Water Services</h2>
+                            <hr class="star-primary">
+                            <a target="_blank" href="#">
+                                <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="" >
+                            </a>
+
+                            <p>Welcome to the Water Services page. We are trying to get all of the relevant information for the activity into one place. If you have resources you would like to be accessible from this page please email lucas.mostyn@pncc.govt.nz </p>
+                            <div>
+
+                             
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    
+    
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+ 
+    <!--The Carousel -->
+    // <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    // <script src="js/carousel.js"></script>
+
+</body>
+
+</html>

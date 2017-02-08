@@ -1,0 +1,110 @@
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}*/
+
+.news-carousel-container {
+  position: relative;
+}
+
+.controls {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.control-left {
+  left: 0;
+}
+
+.control-right {
+  right: 0;
+}
+
+.carousel-control-container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 400px;
+  width: 30px;
+}
+
+.carousel-control-container > span {
+  display: block;
+}
+
+.news-carousel {
+  margin: auto;
+  width: 620px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.news-carousel ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.news-carousel li {
+  display: inline-block;
+  /*margin-left: -0.25em;*/
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.item {
+  position: relative;
+  background: #eee;
+  width: 620px;
+  height: 400px;
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.item-image > img {
+  width: 100%;
+}
+
+.item-info {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  padding: 30px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.item-info > h1 {
+  font: 700 18pt "Tahoma";
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.item-info > span {
+  display: inline-block;
+  font: 400 10pt "Arial";
+  border: 2px solid #fff;
+  padding: 9px 21px;
+  text-transform: uppercase;
+}
+
+.item-info > span > a:hover {
+  text-decoration: underline;
+}
