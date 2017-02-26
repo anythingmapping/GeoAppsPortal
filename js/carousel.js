@@ -60,5 +60,5 @@ var Carousel = (function () {
   
 })();
 
-Carousel.setup(500, 6000);
+Carousel.setup(500, 8000);
 Carousel.make($('.news-carousel'));
